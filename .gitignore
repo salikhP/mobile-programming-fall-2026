@@ -1,24 +1,35 @@
 # IntelliJ IDEA
 .idea/
+**/.idea/
 *.iml
 *.iws
 *.ipr
 
 # Gradle
 .gradle/
+**/.gradle/
 **/build/
 
-# Kotlin / Java build output
+# Kotlin
+.kotlin/
+**/.kotlin/
+
+# Build output
 **/out/
 *.class
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
+
+# VS Code
+.vscode/
+**/.vscode/
 
 # Logs
 *.log
 
-# Local environment files
+# Environment files
 .env
 .env.*
+
